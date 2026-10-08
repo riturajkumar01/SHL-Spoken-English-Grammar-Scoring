@@ -184,29 +184,52 @@ def load_audio_file(
 
     try:
         data, sr = sf.read(audio_path, dtype="float32")
-
-        # Handle multi-channel audio (convert stereo/surround to mono)
         if len(data.shape) > 1:
             data = np.mean(data, axis=1)
-
-        # Resample if needed using scipy.signal
         if sr != target_sr:
             from scipy import signal
             num_samples = int(len(data) * target_sr / sr)
             data = signal.resample(data, num_samples)
             sr = target_sr
-
-        # Normalization
         if normalize and len(data) > 0:
             max_val = np.max(np.abs(data))
             if max_val > 1e-6:
                 data = data / max_val
-
         return data.astype(np.float32), sr
 
-    except Exception as e:
-        logger.warning(f"Failed to load audio file {audio_path}: {e}")
-        return None, target_sr
+    except Exception:
+        # Fallback 1: scipy.io.wavfile
+        try:
+            from scipy.io import wavfile
+            sr, data = wavfile.read(audio_path)
+            data = data.astype(np.float32)
+            if len(data.shape) > 1:
+                data = np.mean(data, axis=1)
+            if np.max(np.abs(data)) > 1.0:
+                data = data / 32768.0
+            if sr != target_sr:
+                from scipy import signal
+                num_samples = int(len(data) * target_sr / sr)
+                data = signal.resample(data, num_samples)
+                sr = target_sr
+            if normalize and len(data) > 0:
+                max_val = np.max(np.abs(data))
+                if max_val > 1e-6:
+                    data = data / max_val
+            return data.astype(np.float32), sr
+        except Exception:
+            # Fallback 2: librosa
+            try:
+                import librosa
+                data, sr = librosa.load(audio_path, sr=target_sr, mono=True)
+                if normalize and len(data) > 0:
+                    max_val = np.max(np.abs(data))
+                    if max_val > 1e-6:
+                        data = data / max_val
+                return data.astype(np.float32), sr
+            except Exception as e:
+                logger.warning(f"All audio loading fallbacks failed for {audio_path}: {e}")
+                return None, target_sr
 
 
 def inspect_dataframe(df: pd.DataFrame, name: str = "Dataset") -> Dict[str, Any]:

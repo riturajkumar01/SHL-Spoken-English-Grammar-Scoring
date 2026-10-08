@@ -1,7 +1,7 @@
 """
 SHL Spoken English Grammar Scoring Engine - Interactive Web Application & REST API Server
-Provides real-time multimodal audio/text grammar assessment, live microphone recording,
-interactive Chart.js radar visualizations, grammar error taxonomy breakdowns, and benchmark reports.
+Provides real-time multimodal audio/text grammar assessment, live 16kHz PCM WAV microphone recording,
+integrated Web Speech real-time transcription, Chart.js radar visualizations, grammar error taxonomy breakdowns, and benchmark reports.
 """
 
 import os
@@ -40,6 +40,7 @@ SCALER = None
 FEATURE_NAMES = []
 FEATURE_MEDIANS = {}
 BENCHMARK_RESULTS = {}
+
 RUBRIC_DESCRIPTIONS = {
     1: {
         "title": "Level 1: Very Limited Proficiency",
@@ -170,16 +171,21 @@ def compute_radar_dimensions(score: float, ling_feats: dict, gram_feats: dict, a
     """Normalize and compute scores across 5 core communicative dimensions (0-100 scale)."""
     # 1. Grammatical Accuracy (0-100)
     error_rate = gram_feats.get("grammar_error_rate", 0.0)
-    accuracy_score = max(10.0, min(100.0, 100.0 - (error_rate * 5.5)))
+    word_count = ling_feats.get("word_count", 0)
+    if word_count > 0:
+        accuracy_score = max(10.0, min(100.0, 100.0 - (error_rate * 5.5)))
+    else:
+        accuracy_score = 50.0
 
     # 2. Lexical Diversity (0-100)
     ttr = ling_feats.get("lexical_diversity", 0.5)
-    ttr_score = max(15.0, min(100.0, ttr * 110.0))
+    ttr_score = max(15.0, min(100.0, ttr * 100.0))
 
     # 3. Syntactic Complexity (0-100)
-    clauses = ling_feats.get("clause_density", 1.0)
+    clauses = ling_feats.get("subordination_ratio", 0.0)
     connectives = ling_feats.get("complex_connective_count", 0)
-    complexity_score = max(20.0, min(100.0, (clauses * 35.0) + (connectives * 10.0)))
+    long_words = ling_feats.get("long_word_ratio", 0.2)
+    complexity_score = max(20.0, min(100.0, (clauses * 40.0) + (connectives * 12.0) + (long_words * 80.0)))
 
     # 4. Fluency & Continuity (0-100)
     filler_ratio = ling_feats.get("filler_ratio", 0.0)
@@ -217,24 +223,25 @@ HTML_TEMPLATE = """
             --shl-bg: #f8fafc;
         }
         body { background-color: var(--shl-bg); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: #1e293b; }
-        .hero { background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%); color: white; padding: 38px 0 28px; margin-bottom: 28px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); }
+        .hero { background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%); color: white; padding: 36px 0 26px; margin-bottom: 24px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); }
         .card { border-radius: 14px; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 20px rgba(0,0,0,0.04); margin-bottom: 24px; }
-        .score-circle { width: 145px; height: 145px; border-radius: 50%; background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 0 auto; box-shadow: 0 8px 24px rgba(30,60,114,0.35); }
-        .score-val { font-size: 42px; font-weight: 800; line-height: 1; }
-        .score-max { font-size: 14px; opacity: 0.85; font-weight: 500; }
-        .metric-card { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 14px 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.02); }
-        .metric-val { font-size: 22px; font-weight: 700; color: #0f172a; }
-        .metric-label { font-size: 11px; color: #64748b; text-transform: uppercase; letter-spacing: 0.6px; font-weight: 600; margin-top: 4px; }
+        .score-circle { width: 140px; height: 140px; border-radius: 50%; background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 0 auto; box-shadow: 0 8px 24px rgba(30,60,114,0.35); }
+        .score-val { font-size: 40px; font-weight: 800; line-height: 1; }
+        .score-max { font-size: 13px; opacity: 0.85; font-weight: 500; }
+        .metric-card { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 12px 8px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.02); }
+        .metric-val { font-size: 20px; font-weight: 700; color: #0f172a; }
+        .metric-label { font-size: 11px; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; margin-top: 3px; }
         .nav-pills .nav-link { color: #475569; font-weight: 600; border-radius: 8px; padding: 10px 18px; }
         .nav-pills .nav-link.active { background-color: var(--shl-primary); color: white; }
-        .record-btn { width: 64px; height: 64px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 26px; transition: all 0.2s ease; }
-        .pulse-recording { animation: pulse 1.5s infinite; background-color: #dc3545 !important; border-color: #dc3545 !important; }
+        .record-btn { width: 66px; height: 66px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 28px; transition: all 0.25s ease; cursor: pointer; }
+        .pulse-recording { animation: pulse 1.5s infinite; background-color: #dc3545 !important; border-color: #dc3545 !important; color: white !important; }
         @keyframes pulse {
             0% { box-shadow: 0 0 0 0 rgba(220, 53, 69, 0.7); }
             70% { box-shadow: 0 0 0 16px rgba(220, 53, 69, 0); }
             100% { box-shadow: 0 0 0 0 rgba(220, 53, 69, 0); }
         }
         .issue-badge { font-size: 12px; padding: 4px 10px; border-radius: 12px; font-weight: 600; display: inline-flex; align-items: center; gap: 4px; margin-right: 6px; margin-bottom: 6px; }
+        .speech-live-box { min-height: 70px; max-height: 140px; overflow-y: auto; background: #fdfdfd; border: 1px dashed #cbd5e1; border-radius: 8px; padding: 10px; font-size: 14px; }
     </style>
 </head>
 <body>
@@ -283,17 +290,27 @@ HTML_TEMPLATE = """
                     <!-- Left: Input Form -->
                     <div class="col-lg-6">
                         <div class="card p-4">
-                            <h4 class="fw-bold mb-3"><i class="bi bi-soundwave me-2 text-primary"></i>Speech Input</h4>
+                            <h4 class="fw-bold mb-3"><i class="bi bi-soundwave me-2 text-primary"></i>Live Speech Input</h4>
                             
                             <!-- Mic Recording Box -->
                             <div class="p-3 mb-3 bg-light rounded-3 text-center border">
-                                <label class="fw-semibold d-block mb-2">Record Live Voice Response</label>
+                                <label class="fw-semibold d-block mb-2">Record Voice Response via Microphone</label>
                                 <button type="button" class="btn btn-outline-danger record-btn mb-2" id="recordBtn" onclick="toggleRecording()">
                                     <i class="bi bi-mic-fill" id="recordIcon"></i>
                                 </button>
                                 <div id="recordTimer" class="fw-bold text-danger small mb-1" style="display:none;">00:00</div>
-                                <div class="small text-muted" id="recordStatus">Click to start microphone recording (~45–60s)</div>
+                                <div class="small text-muted mb-2" id="recordStatus">Click the microphone to start 16kHz PCM recording with live speech-to-text.</div>
                                 <audio id="audioPlayback" controls class="w-100 mt-2" style="display: none;"></audio>
+                            </div>
+
+                            <!-- Live Transcript / Spoken Text Box -->
+                            <div class="mb-3">
+                                <div class="d-flex justify-content-between align-items-center mb-1">
+                                    <label class="form-label fw-semibold mb-0">Spoken Response Transcript</label>
+                                    <span class="badge bg-secondary-subtle text-secondary small" id="speechRecognitionStatus">Live Transcriber Active</span>
+                                </div>
+                                <textarea class="form-control" id="audioTranscriptInput" rows="3" placeholder="Speak into microphone or type spoken response here to evaluate grammar..."></textarea>
+                                <div class="form-text small">Captured speech appears live. You can review or edit it before scoring.</div>
                             </div>
 
                             <div class="text-center text-muted fw-bold small my-2">— OR UPLOAD AUDIO FILE —</div>
@@ -302,12 +319,12 @@ HTML_TEMPLATE = """
                             <form id="audioForm" enctype="multipart/form-data">
                                 <div class="mb-3">
                                     <label class="form-label fw-semibold">Upload Audio Recording (.wav, .mp3, .ogg)</label>
-                                    <input type="file" class="form-control" id="audioFileInput" accept=".wav,.mp3,.ogg,.m4a,.flac">
-                                    <div class="form-text">Supports mono/stereo 16kHz standard audio files.</div>
+                                    <input type="file" class="form-control" id="audioFileInput" accept=".wav,.mp3,.ogg,.m4a,.flac" onchange="onFileSelected(this)">
+                                    <div class="form-text">Supports standard mono/stereo audio recordings.</div>
                                 </div>
                                 <div class="d-grid gap-2">
                                     <button type="submit" class="btn btn-primary btn-lg fw-semibold" id="audioSubmitBtn">
-                                        <i class="bi bi-lightning-charge-fill me-1"></i> Score Audio Response
+                                        <i class="bi bi-lightning-charge-fill me-1"></i> Score Audio & Transcript
                                     </button>
                                 </div>
                             </form>
@@ -336,7 +353,7 @@ HTML_TEMPLATE = """
                                 </div>
 
                                 <!-- Radar Chart -->
-                                <div class="mb-3" style="max-height: 260px;">
+                                <div class="mb-3" style="max-height: 250px;">
                                     <canvas id="audioRadarChart"></canvas>
                                 </div>
 
@@ -392,7 +409,7 @@ HTML_TEMPLATE = """
 
                                 <!-- Transcript Box -->
                                 <div class="p-3 bg-light rounded-3 border">
-                                    <div class="fw-semibold small text-muted mb-1"><i class="bi bi-chat-quote-fill me-1"></i>Speech-to-Text Transcript:</div>
+                                    <div class="fw-semibold small text-muted mb-1"><i class="bi bi-chat-quote-fill me-1"></i>Evaluated Response Transcript:</div>
                                     <div class="small text-dark" id="audioTranscriptText"></div>
                                 </div>
                             </div>
@@ -678,6 +695,13 @@ HTML_TEMPLATE = """
             document.getElementById('directTextInput').value = textPresets[level];
         }
 
+        function onFileSelected(input) {
+            if (input.files && input.files[0]) {
+                recordedWavBlob = null;
+                document.getElementById('recordStatus').innerText = 'Audio file selected: ' + input.files[0].name;
+            }
+        }
+
         // Radar chart instance
         let audioChart = null;
 
@@ -753,12 +777,92 @@ HTML_TEMPLATE = """
             }
         }
 
-        // Live Microphone Recording
-        let mediaRecorder;
-        let audioChunks = [];
-        let recordInterval;
+        // ==========================================
+        // Real 16kHz PCM WAV Audio Recorder in Pure JS
+        // ==========================================
+        let audioContext = null;
+        let mediaStream = null;
+        let scriptNode = null;
+        let audioInputNode = null;
+        let pcmBuffer = [];
+        let isRecording = false;
+        let recordInterval = null;
         let recordSeconds = 0;
-        let recordedBlob = null;
+        let recordedWavBlob = null;
+        let speechRecognition = null;
+
+        // Initialize Web Speech API if supported
+        const SpeechRec = window.SpeechRecognition || window.webkitSpeechRecognition;
+        if (SpeechRec) {
+            speechRecognition = new SpeechRec();
+            speechRecognition.continuous = true;
+            speechRecognition.interimResults = true;
+            speechRecognition.lang = 'en-US';
+
+            speechRecognition.onresult = function(event) {
+                let finalTranscript = '';
+                for (let i = 0; i < event.results.length; ++i) {
+                    finalTranscript += event.results[i][0].transcript + ' ';
+                }
+                const transcriptBox = document.getElementById('audioTranscriptInput');
+                if (finalTranscript.trim()) {
+                    transcriptBox.value = finalTranscript.trim();
+                }
+            };
+
+            speechRecognition.onerror = function(err) {
+                console.warn('Speech recognition warning:', err.error);
+            };
+        } else {
+            document.getElementById('speechRecognitionStatus').innerText = 'Web Speech not supported (Manual entry enabled)';
+        }
+
+        function encodeWAV(samples, sampleRate) {
+            const buffer = new ArrayBuffer(44 + samples.length * 2);
+            const view = new DataView(buffer);
+
+            // RIFF identifier
+            writeString(view, 0, 'RIFF');
+            // file length
+            view.setUint32(4, 36 + samples.length * 2, true);
+            // RIFF type
+            writeString(view, 8, 'WAVE');
+            // format chunk identifier
+            writeString(view, 12, 'fmt ');
+            // format chunk length
+            view.setUint32(16, 16, true);
+            // sample format (raw PCM = 1)
+            view.setUint16(20, 1, true);
+            // channel count (1 = mono)
+            view.setUint16(22, 1, true);
+            // sample rate
+            view.setUint32(24, sampleRate, true);
+            // byte rate (sampleRate * blockAlign)
+            view.setUint32(28, sampleRate * 2, true);
+            // block align (channelCount * bytesPerSample)
+            view.setUint16(32, 2, true);
+            // bits per sample
+            view.setUint16(34, 16, true);
+            // data chunk identifier
+            writeString(view, 36, 'data');
+            // data chunk length
+            view.setUint32(40, samples.length * 2, true);
+
+            // Write 16-bit PCM samples
+            let offset = 44;
+            for (let i = 0; i < samples.length; i++, offset += 2) {
+                let s = Math.max(-1, Math.min(1, samples[i]));
+                view.setInt16(offset, s < 0 ? s * 0x8000 : s * 0x7FFF, true);
+            }
+
+            return new Blob([view], { type: 'audio/wav' });
+        }
+
+        function writeString(view, offset, string) {
+            for (let i = 0; i < string.length; i++) {
+                view.setUint8(offset + i, string.charCodeAt(i));
+            }
+        }
 
         async function toggleRecording() {
             const btn = document.getElementById('recordBtn');
@@ -767,33 +871,80 @@ HTML_TEMPLATE = """
             const status = document.getElementById('recordStatus');
             const audioPlayback = document.getElementById('audioPlayback');
 
-            if (mediaRecorder && mediaRecorder.state === 'recording') {
-                mediaRecorder.stop();
+            if (isRecording) {
+                // STOP RECORDING
+                isRecording = false;
+                if (scriptNode) scriptNode.disconnect();
+                if (audioInputNode) audioInputNode.disconnect();
+                if (mediaStream) mediaStream.getTracks().forEach(t => t.stop());
+                if (speechRecognition) speechRecognition.stop();
+
+                clearInterval(recordInterval);
                 btn.classList.remove('pulse-recording');
                 icon.className = 'bi bi-mic-fill';
-                clearInterval(recordInterval);
-                status.innerText = 'Recording saved. Click Score Audio below.';
-            } else {
-                try {
-                    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-                    mediaRecorder = new MediaRecorder(stream);
-                    audioChunks = [];
-                    recordSeconds = 0;
 
-                    mediaRecorder.ondataavailable = e => audioChunks.push(e.data);
-                    mediaRecorder.onstop = () => {
-                        recordedBlob = new Blob(audioChunks, { type: 'audio/wav' });
-                        const audioUrl = URL.createObjectURL(recordedBlob);
-                        audioPlayback.src = audioUrl;
-                        audioPlayback.style.display = 'block';
-                        document.getElementById('audioFileInput').value = '';
+                // Flatten PCM buffer
+                let totalLength = pcmBuffer.reduce((acc, b) => acc + b.length, 0);
+                let mergedSamples = new Float32Array(totalLength);
+                let offset = 0;
+                for (let b of pcmBuffer) {
+                    mergedSamples.set(b, offset);
+                    offset += b.length;
+                }
+
+                // Resample to 16000 Hz if needed
+                const srcSr = audioContext.sampleRate;
+                const dstSr = 16000;
+                let finalSamples = mergedSamples;
+                if (srcSr !== dstSr) {
+                    const ratio = srcSr / dstSr;
+                    const newLength = Math.round(mergedSamples.length / ratio);
+                    finalSamples = new Float32Array(newLength);
+                    for (let i = 0; i < newLength; i++) {
+                        finalSamples[i] = mergedSamples[Math.round(i * ratio)] || 0;
+                    }
+                }
+
+                recordedWavBlob = encodeWAV(finalSamples, dstSr);
+                const audioUrl = URL.createObjectURL(recordedWavBlob);
+                audioPlayback.src = audioUrl;
+                audioPlayback.style.display = 'block';
+                document.getElementById('audioFileInput').value = '';
+
+                status.innerText = `Recording saved (${Math.round(finalSamples.length / dstSr)}s). Review transcript below and click Score.`;
+            } else {
+                // START RECORDING
+                try {
+                    mediaStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                    const AudioCtx = window.AudioContext || window.webkitAudioContext;
+                    audioContext = new AudioCtx();
+
+                    audioInputNode = audioContext.createMediaStreamSource(mediaStream);
+                    scriptNode = audioContext.createScriptProcessor(4096, 1, 1);
+                    pcmBuffer = [];
+
+                    scriptNode.onaudioprocess = function(e) {
+                        if (!isRecording) return;
+                        const inputData = e.inputBuffer.getChannelData(0);
+                        pcmBuffer.push(new Float32Array(inputData));
                     };
 
-                    mediaRecorder.start();
+                    audioInputNode.connect(scriptNode);
+                    scriptNode.connect(audioContext.destination);
+
+                    isRecording = true;
+                    recordedWavBlob = null;
+                    recordSeconds = 0;
+
                     btn.classList.add('pulse-recording');
                     icon.className = 'bi bi-stop-fill';
                     timer.style.display = 'block';
-                    status.innerText = 'Recording in progress... Click stop when finished.';
+                    timer.innerText = '00:00';
+                    status.innerText = 'Recording live... Speak naturally. Click square button when finished.';
+
+                    if (speechRecognition) {
+                        try { speechRecognition.start(); } catch (e) {}
+                    }
 
                     recordInterval = setInterval(() => {
                         recordSeconds++;
@@ -802,7 +953,7 @@ HTML_TEMPLATE = """
                         timer.innerText = `${mins}:${secs}`;
                     }, 1000);
                 } catch (err) {
-                    alert('Microphone access denied or not supported: ' + err);
+                    alert('Microphone access error: ' + err.message);
                 }
             }
         }
@@ -812,9 +963,10 @@ HTML_TEMPLATE = """
             e.preventDefault();
             const btn = document.getElementById('audioSubmitBtn');
             const fileInput = document.getElementById('audioFileInput');
+            const transcriptInput = document.getElementById('audioTranscriptInput');
 
-            if (!recordedBlob && fileInput.files.length === 0) {
-                alert('Please record a voice sample or select an audio file.');
+            if (!recordedWavBlob && fileInput.files.length === 0 && !transcriptInput.value.trim()) {
+                alert('Please record a voice sample, upload an audio file, or provide the transcript text.');
                 return;
             }
 
@@ -822,10 +974,14 @@ HTML_TEMPLATE = """
             btn.innerHTML = '<span class="spinner-border spinner-border-sm me-2"></span>Extracting acoustics & scoring...';
 
             const formData = new FormData();
-            if (recordedBlob) {
-                formData.append('audio', recordedBlob, 'live_speech.wav');
-            } else {
+            if (recordedWavBlob) {
+                formData.append('audio', recordedWavBlob, 'live_speech.wav');
+            } else if (fileInput.files.length > 0) {
                 formData.append('audio', fileInput.files[0]);
+            }
+            
+            if (transcriptInput.value.trim()) {
+                formData.append('transcript', transcriptInput.value.trim());
             }
 
             try {
@@ -847,7 +1003,7 @@ HTML_TEMPLATE = """
                     document.getElementById('aFillerCount').innerText = feats.filler_word_count || 0;
                     document.getElementById('aWPM').innerText = Math.round((feats.words_per_second || 0) * 60);
                     document.getElementById('aPitch').innerText = Math.round(feats.f0_mean || 150) + ' Hz';
-                    document.getElementById('audioTranscriptText').innerText = data.transcript || 'N/A';
+                    document.getElementById('audioTranscriptText').innerText = data.transcript || transcriptInput.value || 'N/A';
 
                     renderIssueBadges('audioIssuesList', data);
                     renderRadarChart('audioRadarChart', data.dimensions || {});
@@ -858,7 +1014,7 @@ HTML_TEMPLATE = """
                 alert('Server Error: ' + err);
             } finally {
                 btn.disabled = false;
-                btn.innerHTML = '<i class="bi bi-lightning-charge-fill me-1"></i> Score Audio Response';
+                btn.innerHTML = '<i class="bi bi-lightning-charge-fill me-1"></i> Score Audio & Transcript';
             }
         });
 
@@ -962,7 +1118,7 @@ def score_text():
 
     ling_feats = extract_linguistic_features(text)
     gram_feats = extract_grammar_features(text)
-    
+
     # Use training medians for missing audio features to ensure robust text-only scoring
     base_feats = FEATURE_MEDIANS.copy() if FEATURE_MEDIANS else {k: 0.0 for k in FEATURE_NAMES}
     combined = {**base_feats, **ling_feats, **gram_feats}
@@ -984,42 +1140,55 @@ def score_text():
 
 @app.route("/api/score/audio", methods=["POST"])
 def score_audio():
-    """Score grammar from uploaded or recorded audio file."""
-    if "audio" not in request.files:
-        return jsonify({"status": "error", "message": "No audio file provided"}), 400
+    """Score grammar from uploaded or recorded audio file and optional transcript."""
+    user_transcript = request.form.get("transcript", "").strip()
+    audio_file = request.files.get("audio")
 
-    audio_file = request.files["audio"]
-    suffix = os.path.splitext(audio_file.filename)[1] or ".wav"
+    if not audio_file and not user_transcript:
+        return jsonify({"status": "error", "message": "No audio file or transcript provided"}), 400
 
-    with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as tmp:
-        audio_file.save(tmp.name)
-        tmp_path = tmp.name
+    audio_feats = {}
+    tmp_path = None
 
-    try:
-        audio_feats = extract_audio_features(tmp_path)
-        transcript = transcribe_audio_file(tmp_path)
+    if audio_file:
+        suffix = os.path.splitext(audio_file.filename)[1] or ".wav"
+        with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as tmp:
+            audio_file.save(tmp.name)
+            tmp_path = tmp.name
 
-        ling_feats = extract_linguistic_features(transcript, duration=audio_feats.get("audio_duration", 0))
-        gram_feats = extract_grammar_features(transcript)
+        try:
+            audio_feats = extract_audio_features(tmp_path)
+            if not user_transcript:
+                user_transcript = transcribe_audio_file(tmp_path)
+        finally:
+            if tmp_path and os.path.exists(tmp_path):
+                try:
+                    os.remove(tmp_path)
+                except Exception:
+                    pass
 
-        combined = {**audio_feats, **ling_feats, **gram_feats}
-        feat_df = pd.DataFrame([combined]).reindex(columns=FEATURE_NAMES, fill_value=0.0)
+    # Extract linguistic & grammar features
+    duration = audio_feats.get("audio_duration", 0.0)
+    ling_feats = extract_linguistic_features(user_transcript, duration=duration)
+    gram_feats = extract_grammar_features(user_transcript)
 
-        scaled_vec = SCALER.transform(feat_df)
-        pred_score = float(clip_predictions(MODEL.predict(scaled_vec))[0])
-        radar_dims = compute_radar_dimensions(pred_score, ling_feats, gram_feats, audio_feats)
+    # Fill base features with training medians if audio was missing or partially extracted
+    base_feats = FEATURE_MEDIANS.copy() if FEATURE_MEDIANS else {k: 0.0 for k in FEATURE_NAMES}
+    combined = {**base_feats, **audio_feats, **ling_feats, **gram_feats}
+    feat_df = pd.DataFrame([combined]).reindex(columns=FEATURE_NAMES, fill_value=0.0)
 
-        return jsonify({
-            "status": "success",
-            "score": pred_score,
-            "rubric": get_rubric_tier(pred_score),
-            "dimensions": radar_dims,
-            "transcript": transcript,
-            "features": {**audio_feats, **ling_feats, **gram_feats}
-        })
-    finally:
-        if os.path.exists(tmp_path):
-            os.remove(tmp_path)
+    scaled_vec = SCALER.transform(feat_df)
+    pred_score = float(clip_predictions(MODEL.predict(scaled_vec))[0])
+    radar_dims = compute_radar_dimensions(pred_score, ling_feats, gram_feats, audio_feats or base_feats)
+
+    return jsonify({
+        "status": "success",
+        "score": pred_score,
+        "rubric": get_rubric_tier(pred_score),
+        "dimensions": radar_dims,
+        "transcript": user_transcript,
+        "features": {**(audio_feats or {}), **ling_feats, **gram_feats}
+    })
 
 
 if __name__ == "__main__":
