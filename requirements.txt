@@ -1,0 +1,19 @@
+# SHL Spoken English Grammar Scoring Engine - Dependencies
+numpy>=1.22.0
+pandas>=1.4.0
+scipy>=1.8.0
+scikit-learn>=1.0.0
+soundfile>=0.10.0
+librosa>=0.9.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+lightgbm>=3.3.0
+xgboost>=1.6.0
+nbformat>=5.0.0
+jupyter>=1.0.0
+
+# Optional ASR and NLP enhancements (when available in environment)
+# openai-whisper
+# language-tool-python
+# catboost
+

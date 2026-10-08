@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Kaggle dataset / raw audio (never commit raw audio files or competition dataset)
+data/
+dataset/
+*.wav
+*.mp3
+*.flac
+*.m4a
+audio/
+train_audio/
+test_audio/
+/kaggle/
+
+# Cache files
+*.cache
+transcripts_cache/
+audio_features_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
