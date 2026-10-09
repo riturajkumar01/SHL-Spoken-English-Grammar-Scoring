@@ -45,7 +45,9 @@ test_audio/
 transcripts_cache/
 audio_features_cache/
 
-# OS
-.DS_Store
+# Work sample bundles
+*.zip
+SHL_Work_Samples_Rituraj_Kumar/
+
 Thumbs.db
 
