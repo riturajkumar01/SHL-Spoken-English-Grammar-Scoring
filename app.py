@@ -168,37 +168,100 @@ def get_rubric_tier(score: float) -> Dict[str, Any]:
 
 
 def compute_radar_dimensions(score: float, ling_feats: dict, gram_feats: dict, audio_feats: dict) -> Dict[str, float]:
-    """Normalize and compute scores across 5 core communicative dimensions (0-100 scale)."""
-    # 1. Grammatical Accuracy (0-100)
-    error_rate = gram_feats.get("grammar_error_rate", 0.0)
-    word_count = ling_feats.get("word_count", 0)
-    if word_count > 0:
-        accuracy_score = max(10.0, min(100.0, 100.0 - (error_rate * 5.5)))
-    else:
-        accuracy_score = 50.0
+    """
+    Compute rigorous, un-hallucinated competency ratings (0-100 scale)
+    directly from measured acoustic, syntactic, and lexical signal properties.
+    """
+    word_count = float(ling_feats.get("word_count", 0.0))
+    duration = float(audio_feats.get("audio_duration", 0.0))
 
-    # 2. Lexical Diversity (0-100)
-    ttr = ling_feats.get("lexical_diversity", 0.5)
-    ttr_score = max(15.0, min(100.0, ttr * 100.0))
+    # 1. Grammatical Accuracy (0-100)
+    if word_count > 0:
+        error_count = float(gram_feats.get("grammar_error_count", 0.0))
+        sva_errors = float(gram_feats.get("sva_error_count", 0.0))
+        double_negatives = float(gram_feats.get("double_negative_count", 0.0))
+        error_rate = float(gram_feats.get("grammar_error_rate", 0.0))
+
+        # Strictly penalize grammar violations based on frequency per 100 words
+        raw_accuracy = 100.0 - (error_rate * 6.5) - (sva_errors * 8.0) - (double_negatives * 12.0)
+        accuracy_score = float(np.clip(raw_accuracy, 10.0, 100.0))
+    else:
+        accuracy_score = 25.0
+
+    # 2. Lexical Diversity & Vocabulary Richness (0-100)
+    if word_count >= 6:
+        guiraud = float(ling_feats.get("guiraud_index", 2.0))
+        ttr = float(ling_feats.get("lexical_diversity", 0.5))
+        long_ratio = float(ling_feats.get("long_word_ratio", 0.1))
+
+        # Root-TTR (Guiraud) normalized against 4.5 benchmark + vocabulary breadth
+        diversity_score = (guiraud / 4.6) * 55.0 + (ttr * 25.0) + (long_ratio * 40.0)
+        diversity_score = float(np.clip(diversity_score, 15.0, 100.0))
+    elif word_count > 0:
+        diversity_score = float(np.clip(word_count * 5.0, 10.0, 40.0))
+    else:
+        diversity_score = 20.0
 
     # 3. Syntactic Complexity (0-100)
-    clauses = ling_feats.get("subordination_ratio", 0.0)
-    connectives = ling_feats.get("complex_connective_count", 0)
-    long_words = ling_feats.get("long_word_ratio", 0.2)
-    complexity_score = max(20.0, min(100.0, (clauses * 40.0) + (connectives * 12.0) + (long_words * 80.0)))
+    if word_count > 0:
+        subordination = float(ling_feats.get("subordination_ratio", 0.0))
+        connectives = float(ling_feats.get("complex_connective_count", 0.0))
+        avg_sent_len = float(ling_feats.get("avg_sentence_length", word_count))
+        modal_ratio = float(ling_feats.get("modal_verb_ratio", 0.0))
 
-    # 4. Fluency & Continuity (0-100)
-    filler_ratio = ling_feats.get("filler_ratio", 0.0)
-    fluency_score = max(10.0, min(100.0, 100.0 - (filler_ratio * 4.0)))
+        # Sentence length benchmark (~14-22 words for strong complex sentences)
+        sent_len_factor = min(avg_sent_len / 16.0, 1.2) * 35.0
+        conn_factor = min(connectives * 18.0, 35.0)
+        subord_factor = min(subordination * 30.0, 30.0)
+        modal_factor = min(modal_ratio * 50.0, 15.0)
+
+        complexity_score = float(np.clip(sent_len_factor + conn_factor + subord_factor + modal_factor, 12.0, 100.0))
+    else:
+        complexity_score = 15.0
+
+    # 4. Fluency & Pacing (0-100)
+    filler_ratio = float(ling_feats.get("filler_ratio", 0.0))
+    repetition_ratio = float(ling_feats.get("repetition_ratio", 0.0))
+
+    if duration > 0.5 and word_count > 0:
+        wpm = (word_count / duration) * 60.0
+        # Optimal speaking rate ~120-160 WPM
+        if 110 <= wpm <= 170:
+            pace_score = 90.0
+        elif wpm < 110:
+            pace_score = max(20.0, (wpm / 110.0) * 90.0)
+        else:
+            pace_score = max(40.0, 90.0 - ((wpm - 170.0) / 70.0) * 40.0)
+
+        silence_ratio = float(audio_feats.get("silence_ratio", 0.2))
+        pause_penalty = max(0.0, (silence_ratio - 0.25) * 60.0)
+        filler_penalty = (filler_ratio * 4.0) + (repetition_ratio * 5.0)
+
+        fluency_score = float(np.clip(pace_score - pause_penalty - filler_penalty, 15.0, 100.0))
+    else:
+        filler_penalty = (filler_ratio * 5.0) + (repetition_ratio * 6.0)
+        fluency_score = float(np.clip(85.0 - filler_penalty, 20.0, 95.0))
 
     # 5. Acoustic & Prosodic Stability (0-100)
-    silence_ratio = audio_feats.get("silence_ratio", 0.15)
-    f0_std = audio_feats.get("f0_std", 20.0)
-    prosody_score = max(25.0, min(100.0, (1.0 - silence_ratio) * 75.0 + min(f0_std, 40.0) * 0.7))
+    if duration > 0.5 and "f0_mean" in audio_feats:
+        f0_std = float(audio_feats.get("f0_std", 20.0))
+        voiced_ratio = float(audio_feats.get("voiced_ratio", 0.7))
+        silence_ratio = float(audio_feats.get("silence_ratio", 0.2))
+
+        # Expressive speech has F0 std around 20-45 Hz. Monotone (<10) or unstable (>70) is penalized.
+        if 18 <= f0_std <= 50:
+            pitch_score = 45.0
+        else:
+            pitch_score = max(10.0, 45.0 - abs(f0_std - 30.0) * 0.8)
+
+        continuity_score = (1.0 - silence_ratio) * 35.0 + (voiced_ratio * 20.0)
+        prosody_score = float(np.clip(pitch_score + continuity_score, 20.0, 100.0))
+    else:
+        prosody_score = 50.0
 
     return {
         "grammatical_accuracy": round(accuracy_score, 1),
-        "lexical_diversity": round(ttr_score, 1),
+        "lexical_diversity": round(diversity_score, 1),
         "syntactic_complexity": round(complexity_score, 1),
         "fluency": round(fluency_score, 1),
         "prosodic_stability": round(prosody_score, 1)

@@ -103,7 +103,7 @@ def generate_mock_dataset(base_dir: str = "data"):
         })
 
     train_df = pd.DataFrame(train_records)
-    train_df[["filename", "grammar_score"]].to_csv(os.path.join(base_dir, "train.csv"), index=False)
+    train_df.to_csv(os.path.join(base_dir, "train.csv"), index=False)
     print(f"Train dataset created: {len(train_df)} rows.")
 
     # Generate Test
@@ -115,9 +115,11 @@ def generate_mock_dataset(base_dir: str = "data"):
 
         base_level = random.choices([1, 2, 3, 4, 5], weights=[0.1, 0.25, 0.35, 0.2, 0.1])[0]
         create_synthetic_audio(fpath, duration_sec=1.5, sr=16000, level=base_level)
+        transcript_sample = random.choice(TRANSCRIPTS_BY_LEVEL[base_level])
 
         test_records.append({
             "filename": fname,
+            "transcript": transcript_sample,
             "dummy_label": 0.0
         })
         sample_sub_records.append({

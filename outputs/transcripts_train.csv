@@ -1,770 +1,770 @@
 filename,transcript
-train_speech_0001.wav,
-train_speech_0002.wav,
-train_speech_0003.wav,
-train_speech_0004.wav,
-train_speech_0005.wav,
-train_speech_0006.wav,
-train_speech_0007.wav,
-train_speech_0008.wav,
-train_speech_0009.wav,
-train_speech_0010.wav,
-train_speech_0011.wav,
-train_speech_0012.wav,
-train_speech_0013.wav,
-train_speech_0014.wav,
-train_speech_0015.wav,
-train_speech_0016.wav,
-train_speech_0017.wav,
-train_speech_0018.wav,
-train_speech_0019.wav,
-train_speech_0020.wav,
-train_speech_0021.wav,
-train_speech_0022.wav,
-train_speech_0023.wav,
-train_speech_0024.wav,
-train_speech_0025.wav,
-train_speech_0026.wav,
-train_speech_0027.wav,
-train_speech_0028.wav,
-train_speech_0029.wav,
-train_speech_0030.wav,
-train_speech_0031.wav,
-train_speech_0032.wav,
-train_speech_0033.wav,
-train_speech_0034.wav,
-train_speech_0035.wav,
-train_speech_0036.wav,
-train_speech_0037.wav,
-train_speech_0038.wav,
-train_speech_0039.wav,
-train_speech_0040.wav,
-train_speech_0041.wav,
-train_speech_0042.wav,
-train_speech_0043.wav,
-train_speech_0044.wav,
-train_speech_0045.wav,
-train_speech_0046.wav,
-train_speech_0047.wav,
-train_speech_0048.wav,
-train_speech_0049.wav,
-train_speech_0050.wav,
-train_speech_0051.wav,
-train_speech_0052.wav,
-train_speech_0053.wav,
-train_speech_0054.wav,
-train_speech_0055.wav,
-train_speech_0056.wav,
-train_speech_0057.wav,
-train_speech_0058.wav,
-train_speech_0059.wav,
-train_speech_0060.wav,
-train_speech_0061.wav,
-train_speech_0062.wav,
-train_speech_0063.wav,
-train_speech_0064.wav,
-train_speech_0065.wav,
-train_speech_0066.wav,
-train_speech_0067.wav,
-train_speech_0068.wav,
-train_speech_0069.wav,
-train_speech_0070.wav,
-train_speech_0071.wav,
-train_speech_0072.wav,
-train_speech_0073.wav,
-train_speech_0074.wav,
-train_speech_0075.wav,
-train_speech_0076.wav,
-train_speech_0077.wav,
-train_speech_0078.wav,
-train_speech_0079.wav,
-train_speech_0080.wav,
-train_speech_0081.wav,
-train_speech_0082.wav,
-train_speech_0083.wav,
-train_speech_0084.wav,
-train_speech_0085.wav,
-train_speech_0086.wav,
-train_speech_0087.wav,
-train_speech_0088.wav,
-train_speech_0089.wav,
-train_speech_0090.wav,
-train_speech_0091.wav,
-train_speech_0092.wav,
-train_speech_0093.wav,
-train_speech_0094.wav,
-train_speech_0095.wav,
-train_speech_0096.wav,
-train_speech_0097.wav,
-train_speech_0098.wav,
-train_speech_0099.wav,
-train_speech_0100.wav,
-train_speech_0101.wav,
-train_speech_0102.wav,
-train_speech_0103.wav,
-train_speech_0104.wav,
-train_speech_0105.wav,
-train_speech_0106.wav,
-train_speech_0107.wav,
-train_speech_0108.wav,
-train_speech_0109.wav,
-train_speech_0110.wav,
-train_speech_0111.wav,
-train_speech_0112.wav,
-train_speech_0113.wav,
-train_speech_0114.wav,
-train_speech_0115.wav,
-train_speech_0116.wav,
-train_speech_0117.wav,
-train_speech_0118.wav,
-train_speech_0119.wav,
-train_speech_0120.wav,
-train_speech_0121.wav,
-train_speech_0122.wav,
-train_speech_0123.wav,
-train_speech_0124.wav,
-train_speech_0125.wav,
-train_speech_0126.wav,
-train_speech_0127.wav,
-train_speech_0128.wav,
-train_speech_0129.wav,
-train_speech_0130.wav,
-train_speech_0131.wav,
-train_speech_0132.wav,
-train_speech_0133.wav,
-train_speech_0134.wav,
-train_speech_0135.wav,
-train_speech_0136.wav,
-train_speech_0137.wav,
-train_speech_0138.wav,
-train_speech_0139.wav,
-train_speech_0140.wav,
-train_speech_0141.wav,
-train_speech_0142.wav,
-train_speech_0143.wav,
-train_speech_0144.wav,
-train_speech_0145.wav,
-train_speech_0146.wav,
-train_speech_0147.wav,
-train_speech_0148.wav,
-train_speech_0149.wav,
-train_speech_0150.wav,
-train_speech_0151.wav,
-train_speech_0152.wav,
-train_speech_0153.wav,
-train_speech_0154.wav,
-train_speech_0155.wav,
-train_speech_0156.wav,
-train_speech_0157.wav,
-train_speech_0158.wav,
-train_speech_0159.wav,
-train_speech_0160.wav,
-train_speech_0161.wav,
-train_speech_0162.wav,
-train_speech_0163.wav,
-train_speech_0164.wav,
-train_speech_0165.wav,
-train_speech_0166.wav,
-train_speech_0167.wav,
-train_speech_0168.wav,
-train_speech_0169.wav,
-train_speech_0170.wav,
-train_speech_0171.wav,
-train_speech_0172.wav,
-train_speech_0173.wav,
-train_speech_0174.wav,
-train_speech_0175.wav,
-train_speech_0176.wav,
-train_speech_0177.wav,
-train_speech_0178.wav,
-train_speech_0179.wav,
-train_speech_0180.wav,
-train_speech_0181.wav,
-train_speech_0182.wav,
-train_speech_0183.wav,
-train_speech_0184.wav,
-train_speech_0185.wav,
-train_speech_0186.wav,
-train_speech_0187.wav,
-train_speech_0188.wav,
-train_speech_0189.wav,
-train_speech_0190.wav,
-train_speech_0191.wav,
-train_speech_0192.wav,
-train_speech_0193.wav,
-train_speech_0194.wav,
-train_speech_0195.wav,
-train_speech_0196.wav,
-train_speech_0197.wav,
-train_speech_0198.wav,
-train_speech_0199.wav,
-train_speech_0200.wav,
-train_speech_0201.wav,
-train_speech_0202.wav,
-train_speech_0203.wav,
-train_speech_0204.wav,
-train_speech_0205.wav,
-train_speech_0206.wav,
-train_speech_0207.wav,
-train_speech_0208.wav,
-train_speech_0209.wav,
-train_speech_0210.wav,
-train_speech_0211.wav,
-train_speech_0212.wav,
-train_speech_0213.wav,
-train_speech_0214.wav,
-train_speech_0215.wav,
-train_speech_0216.wav,
-train_speech_0217.wav,
-train_speech_0218.wav,
-train_speech_0219.wav,
-train_speech_0220.wav,
-train_speech_0221.wav,
-train_speech_0222.wav,
-train_speech_0223.wav,
-train_speech_0224.wav,
-train_speech_0225.wav,
-train_speech_0226.wav,
-train_speech_0227.wav,
-train_speech_0228.wav,
-train_speech_0229.wav,
-train_speech_0230.wav,
-train_speech_0231.wav,
-train_speech_0232.wav,
-train_speech_0233.wav,
-train_speech_0234.wav,
-train_speech_0235.wav,
-train_speech_0236.wav,
-train_speech_0237.wav,
-train_speech_0238.wav,
-train_speech_0239.wav,
-train_speech_0240.wav,
-train_speech_0241.wav,
-train_speech_0242.wav,
-train_speech_0243.wav,
-train_speech_0244.wav,
-train_speech_0245.wav,
-train_speech_0246.wav,
-train_speech_0247.wav,
-train_speech_0248.wav,
-train_speech_0249.wav,
-train_speech_0250.wav,
-train_speech_0251.wav,
-train_speech_0252.wav,
-train_speech_0253.wav,
-train_speech_0254.wav,
-train_speech_0255.wav,
-train_speech_0256.wav,
-train_speech_0257.wav,
-train_speech_0258.wav,
-train_speech_0259.wav,
-train_speech_0260.wav,
-train_speech_0261.wav,
-train_speech_0262.wav,
-train_speech_0263.wav,
-train_speech_0264.wav,
-train_speech_0265.wav,
-train_speech_0266.wav,
-train_speech_0267.wav,
-train_speech_0268.wav,
-train_speech_0269.wav,
-train_speech_0270.wav,
-train_speech_0271.wav,
-train_speech_0272.wav,
-train_speech_0273.wav,
-train_speech_0274.wav,
-train_speech_0275.wav,
-train_speech_0276.wav,
-train_speech_0277.wav,
-train_speech_0278.wav,
-train_speech_0279.wav,
-train_speech_0280.wav,
-train_speech_0281.wav,
-train_speech_0282.wav,
-train_speech_0283.wav,
-train_speech_0284.wav,
-train_speech_0285.wav,
-train_speech_0286.wav,
-train_speech_0287.wav,
-train_speech_0288.wav,
-train_speech_0289.wav,
-train_speech_0290.wav,
-train_speech_0291.wav,
-train_speech_0292.wav,
-train_speech_0293.wav,
-train_speech_0294.wav,
-train_speech_0295.wav,
-train_speech_0296.wav,
-train_speech_0297.wav,
-train_speech_0298.wav,
-train_speech_0299.wav,
-train_speech_0300.wav,
-train_speech_0301.wav,
-train_speech_0302.wav,
-train_speech_0303.wav,
-train_speech_0304.wav,
-train_speech_0305.wav,
-train_speech_0306.wav,
-train_speech_0307.wav,
-train_speech_0308.wav,
-train_speech_0309.wav,
-train_speech_0310.wav,
-train_speech_0311.wav,
-train_speech_0312.wav,
-train_speech_0313.wav,
-train_speech_0314.wav,
-train_speech_0315.wav,
-train_speech_0316.wav,
-train_speech_0317.wav,
-train_speech_0318.wav,
-train_speech_0319.wav,
-train_speech_0320.wav,
-train_speech_0321.wav,
-train_speech_0322.wav,
-train_speech_0323.wav,
-train_speech_0324.wav,
-train_speech_0325.wav,
-train_speech_0326.wav,
-train_speech_0327.wav,
-train_speech_0328.wav,
-train_speech_0329.wav,
-train_speech_0330.wav,
-train_speech_0331.wav,
-train_speech_0332.wav,
-train_speech_0333.wav,
-train_speech_0334.wav,
-train_speech_0335.wav,
-train_speech_0336.wav,
-train_speech_0337.wav,
-train_speech_0338.wav,
-train_speech_0339.wav,
-train_speech_0340.wav,
-train_speech_0341.wav,
-train_speech_0342.wav,
-train_speech_0343.wav,
-train_speech_0344.wav,
-train_speech_0345.wav,
-train_speech_0346.wav,
-train_speech_0347.wav,
-train_speech_0348.wav,
-train_speech_0349.wav,
-train_speech_0350.wav,
-train_speech_0351.wav,
-train_speech_0352.wav,
-train_speech_0353.wav,
-train_speech_0354.wav,
-train_speech_0355.wav,
-train_speech_0356.wav,
-train_speech_0357.wav,
-train_speech_0358.wav,
-train_speech_0359.wav,
-train_speech_0360.wav,
-train_speech_0361.wav,
-train_speech_0362.wav,
-train_speech_0363.wav,
-train_speech_0364.wav,
-train_speech_0365.wav,
-train_speech_0366.wav,
-train_speech_0367.wav,
-train_speech_0368.wav,
-train_speech_0369.wav,
-train_speech_0370.wav,
-train_speech_0371.wav,
-train_speech_0372.wav,
-train_speech_0373.wav,
-train_speech_0374.wav,
-train_speech_0375.wav,
-train_speech_0376.wav,
-train_speech_0377.wav,
-train_speech_0378.wav,
-train_speech_0379.wav,
-train_speech_0380.wav,
-train_speech_0381.wav,
-train_speech_0382.wav,
-train_speech_0383.wav,
-train_speech_0384.wav,
-train_speech_0385.wav,
-train_speech_0386.wav,
-train_speech_0387.wav,
-train_speech_0388.wav,
-train_speech_0389.wav,
-train_speech_0390.wav,
-train_speech_0391.wav,
-train_speech_0392.wav,
-train_speech_0393.wav,
-train_speech_0394.wav,
-train_speech_0395.wav,
-train_speech_0396.wav,
-train_speech_0397.wav,
-train_speech_0398.wav,
-train_speech_0399.wav,
-train_speech_0400.wav,
-train_speech_0401.wav,
-train_speech_0402.wav,
-train_speech_0403.wav,
-train_speech_0404.wav,
-train_speech_0405.wav,
-train_speech_0406.wav,
-train_speech_0407.wav,
-train_speech_0408.wav,
-train_speech_0409.wav,
-train_speech_0410.wav,
-train_speech_0411.wav,
-train_speech_0412.wav,
-train_speech_0413.wav,
-train_speech_0414.wav,
-train_speech_0415.wav,
-train_speech_0416.wav,
-train_speech_0417.wav,
-train_speech_0418.wav,
-train_speech_0419.wav,
-train_speech_0420.wav,
-train_speech_0421.wav,
-train_speech_0422.wav,
-train_speech_0423.wav,
-train_speech_0424.wav,
-train_speech_0425.wav,
-train_speech_0426.wav,
-train_speech_0427.wav,
-train_speech_0428.wav,
-train_speech_0429.wav,
-train_speech_0430.wav,
-train_speech_0431.wav,
-train_speech_0432.wav,
-train_speech_0433.wav,
-train_speech_0434.wav,
-train_speech_0435.wav,
-train_speech_0436.wav,
-train_speech_0437.wav,
-train_speech_0438.wav,
-train_speech_0439.wav,
-train_speech_0440.wav,
-train_speech_0441.wav,
-train_speech_0442.wav,
-train_speech_0443.wav,
-train_speech_0444.wav,
-train_speech_0445.wav,
-train_speech_0446.wav,
-train_speech_0447.wav,
-train_speech_0448.wav,
-train_speech_0449.wav,
-train_speech_0450.wav,
-train_speech_0451.wav,
-train_speech_0452.wav,
-train_speech_0453.wav,
-train_speech_0454.wav,
-train_speech_0455.wav,
-train_speech_0456.wav,
-train_speech_0457.wav,
-train_speech_0458.wav,
-train_speech_0459.wav,
-train_speech_0460.wav,
-train_speech_0461.wav,
-train_speech_0462.wav,
-train_speech_0463.wav,
-train_speech_0464.wav,
-train_speech_0465.wav,
-train_speech_0466.wav,
-train_speech_0467.wav,
-train_speech_0468.wav,
-train_speech_0469.wav,
-train_speech_0470.wav,
-train_speech_0471.wav,
-train_speech_0472.wav,
-train_speech_0473.wav,
-train_speech_0474.wav,
-train_speech_0475.wav,
-train_speech_0476.wav,
-train_speech_0477.wav,
-train_speech_0478.wav,
-train_speech_0479.wav,
-train_speech_0480.wav,
-train_speech_0481.wav,
-train_speech_0482.wav,
-train_speech_0483.wav,
-train_speech_0484.wav,
-train_speech_0485.wav,
-train_speech_0486.wav,
-train_speech_0487.wav,
-train_speech_0488.wav,
-train_speech_0489.wav,
-train_speech_0490.wav,
-train_speech_0491.wav,
-train_speech_0492.wav,
-train_speech_0493.wav,
-train_speech_0494.wav,
-train_speech_0495.wav,
-train_speech_0496.wav,
-train_speech_0497.wav,
-train_speech_0498.wav,
-train_speech_0499.wav,
-train_speech_0500.wav,
-train_speech_0501.wav,
-train_speech_0502.wav,
-train_speech_0503.wav,
-train_speech_0504.wav,
-train_speech_0505.wav,
-train_speech_0506.wav,
-train_speech_0507.wav,
-train_speech_0508.wav,
-train_speech_0509.wav,
-train_speech_0510.wav,
-train_speech_0511.wav,
-train_speech_0512.wav,
-train_speech_0513.wav,
-train_speech_0514.wav,
-train_speech_0515.wav,
-train_speech_0516.wav,
-train_speech_0517.wav,
-train_speech_0518.wav,
-train_speech_0519.wav,
-train_speech_0520.wav,
-train_speech_0521.wav,
-train_speech_0522.wav,
-train_speech_0523.wav,
-train_speech_0524.wav,
-train_speech_0525.wav,
-train_speech_0526.wav,
-train_speech_0527.wav,
-train_speech_0528.wav,
-train_speech_0529.wav,
-train_speech_0530.wav,
-train_speech_0531.wav,
-train_speech_0532.wav,
-train_speech_0533.wav,
-train_speech_0534.wav,
-train_speech_0535.wav,
-train_speech_0536.wav,
-train_speech_0537.wav,
-train_speech_0538.wav,
-train_speech_0539.wav,
-train_speech_0540.wav,
-train_speech_0541.wav,
-train_speech_0542.wav,
-train_speech_0543.wav,
-train_speech_0544.wav,
-train_speech_0545.wav,
-train_speech_0546.wav,
-train_speech_0547.wav,
-train_speech_0548.wav,
-train_speech_0549.wav,
-train_speech_0550.wav,
-train_speech_0551.wav,
-train_speech_0552.wav,
-train_speech_0553.wav,
-train_speech_0554.wav,
-train_speech_0555.wav,
-train_speech_0556.wav,
-train_speech_0557.wav,
-train_speech_0558.wav,
-train_speech_0559.wav,
-train_speech_0560.wav,
-train_speech_0561.wav,
-train_speech_0562.wav,
-train_speech_0563.wav,
-train_speech_0564.wav,
-train_speech_0565.wav,
-train_speech_0566.wav,
-train_speech_0567.wav,
-train_speech_0568.wav,
-train_speech_0569.wav,
-train_speech_0570.wav,
-train_speech_0571.wav,
-train_speech_0572.wav,
-train_speech_0573.wav,
-train_speech_0574.wav,
-train_speech_0575.wav,
-train_speech_0576.wav,
-train_speech_0577.wav,
-train_speech_0578.wav,
-train_speech_0579.wav,
-train_speech_0580.wav,
-train_speech_0581.wav,
-train_speech_0582.wav,
-train_speech_0583.wav,
-train_speech_0584.wav,
-train_speech_0585.wav,
-train_speech_0586.wav,
-train_speech_0587.wav,
-train_speech_0588.wav,
-train_speech_0589.wav,
-train_speech_0590.wav,
-train_speech_0591.wav,
-train_speech_0592.wav,
-train_speech_0593.wav,
-train_speech_0594.wav,
-train_speech_0595.wav,
-train_speech_0596.wav,
-train_speech_0597.wav,
-train_speech_0598.wav,
-train_speech_0599.wav,
-train_speech_0600.wav,
-train_speech_0601.wav,
-train_speech_0602.wav,
-train_speech_0603.wav,
-train_speech_0604.wav,
-train_speech_0605.wav,
-train_speech_0606.wav,
-train_speech_0607.wav,
-train_speech_0608.wav,
-train_speech_0609.wav,
-train_speech_0610.wav,
-train_speech_0611.wav,
-train_speech_0612.wav,
-train_speech_0613.wav,
-train_speech_0614.wav,
-train_speech_0615.wav,
-train_speech_0616.wav,
-train_speech_0617.wav,
-train_speech_0618.wav,
-train_speech_0619.wav,
-train_speech_0620.wav,
-train_speech_0621.wav,
-train_speech_0622.wav,
-train_speech_0623.wav,
-train_speech_0624.wav,
-train_speech_0625.wav,
-train_speech_0626.wav,
-train_speech_0627.wav,
-train_speech_0628.wav,
-train_speech_0629.wav,
-train_speech_0630.wav,
-train_speech_0631.wav,
-train_speech_0632.wav,
-train_speech_0633.wav,
-train_speech_0634.wav,
-train_speech_0635.wav,
-train_speech_0636.wav,
-train_speech_0637.wav,
-train_speech_0638.wav,
-train_speech_0639.wav,
-train_speech_0640.wav,
-train_speech_0641.wav,
-train_speech_0642.wav,
-train_speech_0643.wav,
-train_speech_0644.wav,
-train_speech_0645.wav,
-train_speech_0646.wav,
-train_speech_0647.wav,
-train_speech_0648.wav,
-train_speech_0649.wav,
-train_speech_0650.wav,
-train_speech_0651.wav,
-train_speech_0652.wav,
-train_speech_0653.wav,
-train_speech_0654.wav,
-train_speech_0655.wav,
-train_speech_0656.wav,
-train_speech_0657.wav,
-train_speech_0658.wav,
-train_speech_0659.wav,
-train_speech_0660.wav,
-train_speech_0661.wav,
-train_speech_0662.wav,
-train_speech_0663.wav,
-train_speech_0664.wav,
-train_speech_0665.wav,
-train_speech_0666.wav,
-train_speech_0667.wav,
-train_speech_0668.wav,
-train_speech_0669.wav,
-train_speech_0670.wav,
-train_speech_0671.wav,
-train_speech_0672.wav,
-train_speech_0673.wav,
-train_speech_0674.wav,
-train_speech_0675.wav,
-train_speech_0676.wav,
-train_speech_0677.wav,
-train_speech_0678.wav,
-train_speech_0679.wav,
-train_speech_0680.wav,
-train_speech_0681.wav,
-train_speech_0682.wav,
-train_speech_0683.wav,
-train_speech_0684.wav,
-train_speech_0685.wav,
-train_speech_0686.wav,
-train_speech_0687.wav,
-train_speech_0688.wav,
-train_speech_0689.wav,
-train_speech_0690.wav,
-train_speech_0691.wav,
-train_speech_0692.wav,
-train_speech_0693.wav,
-train_speech_0694.wav,
-train_speech_0695.wav,
-train_speech_0696.wav,
-train_speech_0697.wav,
-train_speech_0698.wav,
-train_speech_0699.wav,
-train_speech_0700.wav,
-train_speech_0701.wav,
-train_speech_0702.wav,
-train_speech_0703.wav,
-train_speech_0704.wav,
-train_speech_0705.wav,
-train_speech_0706.wav,
-train_speech_0707.wav,
-train_speech_0708.wav,
-train_speech_0709.wav,
-train_speech_0710.wav,
-train_speech_0711.wav,
-train_speech_0712.wav,
-train_speech_0713.wav,
-train_speech_0714.wav,
-train_speech_0715.wav,
-train_speech_0716.wav,
-train_speech_0717.wav,
-train_speech_0718.wav,
-train_speech_0719.wav,
-train_speech_0720.wav,
-train_speech_0721.wav,
-train_speech_0722.wav,
-train_speech_0723.wav,
-train_speech_0724.wav,
-train_speech_0725.wav,
-train_speech_0726.wav,
-train_speech_0727.wav,
-train_speech_0728.wav,
-train_speech_0729.wav,
-train_speech_0730.wav,
-train_speech_0731.wav,
-train_speech_0732.wav,
-train_speech_0733.wav,
-train_speech_0734.wav,
-train_speech_0735.wav,
-train_speech_0736.wav,
-train_speech_0737.wav,
-train_speech_0738.wav,
-train_speech_0739.wav,
-train_speech_0740.wav,
-train_speech_0741.wav,
-train_speech_0742.wav,
-train_speech_0743.wav,
-train_speech_0744.wav,
-train_speech_0745.wav,
-train_speech_0746.wav,
-train_speech_0747.wav,
-train_speech_0748.wav,
-train_speech_0749.wav,
-train_speech_0750.wav,
-train_speech_0751.wav,
-train_speech_0752.wav,
-train_speech_0753.wav,
-train_speech_0754.wav,
-train_speech_0755.wav,
-train_speech_0756.wav,
-train_speech_0757.wav,
-train_speech_0758.wav,
-train_speech_0759.wav,
-train_speech_0760.wav,
-train_speech_0761.wav,
-train_speech_0762.wav,
-train_speech_0763.wav,
-train_speech_0764.wav,
-train_speech_0765.wav,
-train_speech_0766.wav,
-train_speech_0767.wav,
-train_speech_0768.wav,
-train_speech_0769.wav,
+train_speech_0001.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0002.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0003.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0004.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0005.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0006.wav,i is wanting speak english good but english hard. she do not know why car broken.
+train_speech_0007.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0008.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0009.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0010.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0011.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0012.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0013.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0014.wav,Effective leadership entails not only visionary strategic foresight but also the cultivation of an inclusive environment wherein interdisciplinary collaboration can flourish.
+train_speech_0015.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0016.wav,they was playing and then accident happen. no anybody help. we is scared.
+train_speech_0017.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0018.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0019.wav,"Environmental sustainability demands a paradigm shift in industrial consumption, integrating circular economy principles and advanced renewable infrastructure."
+train_speech_0020.wav,they was playing and then accident happen. no anybody help. we is scared.
+train_speech_0021.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0022.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0023.wav,i is wanting speak english good but english hard. she do not know why car broken.
+train_speech_0024.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0025.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0026.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0027.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0028.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0029.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0030.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0031.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0032.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0033.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0034.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0035.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0036.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0037.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0038.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0039.wav,Effective leadership entails not only visionary strategic foresight but also the cultivation of an inclusive environment wherein interdisciplinary collaboration can flourish.
+train_speech_0040.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0041.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0042.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0043.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0044.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0045.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0046.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0047.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0048.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0049.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0050.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0051.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0052.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0053.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0054.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0055.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0056.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0057.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0058.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0059.wav,Effective leadership entails not only visionary strategic foresight but also the cultivation of an inclusive environment wherein interdisciplinary collaboration can flourish.
+train_speech_0060.wav,"Notwithstanding the undeniable economic benefits of globalization, regional disparities underscore the imperative for nuanced socioeconomic policies that promote equitable resource distribution."
+train_speech_0061.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0062.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0063.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0064.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0065.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0066.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0067.wav,they was playing and then accident happen. no anybody help. we is scared.
+train_speech_0068.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0069.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0070.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0071.wav,yesterday i goes work and boss say bad thing. me no happy with this job.
+train_speech_0072.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0073.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0074.wav,"Notwithstanding the undeniable economic benefits of globalization, regional disparities underscore the imperative for nuanced socioeconomic policies that promote equitable resource distribution."
+train_speech_0075.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0076.wav,"Notwithstanding the undeniable economic benefits of globalization, regional disparities underscore the imperative for nuanced socioeconomic policies that promote equitable resource distribution."
+train_speech_0077.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0078.wav,Effective leadership entails not only visionary strategic foresight but also the cultivation of an inclusive environment wherein interdisciplinary collaboration can flourish.
+train_speech_0079.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0080.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0081.wav,he go to store yesterday and he buy no foods because money is not have. very difficult life.
+train_speech_0082.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0083.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0084.wav,he go to store yesterday and he buy no foods because money is not have. very difficult life.
+train_speech_0085.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0086.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0087.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0088.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0089.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0090.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0091.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0092.wav,yesterday i goes work and boss say bad thing. me no happy with this job.
+train_speech_0093.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0094.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0095.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0096.wav,they was playing and then accident happen. no anybody help. we is scared.
+train_speech_0097.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0098.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0099.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0100.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0101.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0102.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0103.wav,he go to store yesterday and he buy no foods because money is not have. very difficult life.
+train_speech_0104.wav,"Notwithstanding the undeniable economic benefits of globalization, regional disparities underscore the imperative for nuanced socioeconomic policies that promote equitable resource distribution."
+train_speech_0105.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0106.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0107.wav,"Notwithstanding the undeniable economic benefits of globalization, regional disparities underscore the imperative for nuanced socioeconomic policies that promote equitable resource distribution."
+train_speech_0108.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0109.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0110.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0111.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0112.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0113.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0114.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0115.wav,yesterday i goes work and boss say bad thing. me no happy with this job.
+train_speech_0116.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0117.wav,he go to store yesterday and he buy no foods because money is not have. very difficult life.
+train_speech_0118.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0119.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0120.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0121.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0122.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0123.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0124.wav,"Notwithstanding the undeniable economic benefits of globalization, regional disparities underscore the imperative for nuanced socioeconomic policies that promote equitable resource distribution."
+train_speech_0125.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0126.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0127.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0128.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0129.wav,he go to store yesterday and he buy no foods because money is not have. very difficult life.
+train_speech_0130.wav,i is wanting speak english good but english hard. she do not know why car broken.
+train_speech_0131.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0132.wav,The rapid evolution of artificial intelligence necessitates comprehensive regulatory frameworks to mitigate systemic biases while fostering innovative research across diverse domains.
+train_speech_0133.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0134.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0135.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0136.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0137.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0138.wav,The rapid evolution of artificial intelligence necessitates comprehensive regulatory frameworks to mitigate systemic biases while fostering innovative research across diverse domains.
+train_speech_0139.wav,"Notwithstanding the undeniable economic benefits of globalization, regional disparities underscore the imperative for nuanced socioeconomic policies that promote equitable resource distribution."
+train_speech_0140.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0141.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0142.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0143.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0144.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0145.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0146.wav,The rapid evolution of artificial intelligence necessitates comprehensive regulatory frameworks to mitigate systemic biases while fostering innovative research across diverse domains.
+train_speech_0147.wav,yesterday i goes work and boss say bad thing. me no happy with this job.
+train_speech_0148.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0149.wav,i is wanting speak english good but english hard. she do not know why car broken.
+train_speech_0150.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0151.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0152.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0153.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0154.wav,i is wanting speak english good but english hard. she do not know why car broken.
+train_speech_0155.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0156.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0157.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0158.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0159.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0160.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0161.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0162.wav,"Notwithstanding the undeniable economic benefits of globalization, regional disparities underscore the imperative for nuanced socioeconomic policies that promote equitable resource distribution."
+train_speech_0163.wav,"Notwithstanding the undeniable economic benefits of globalization, regional disparities underscore the imperative for nuanced socioeconomic policies that promote equitable resource distribution."
+train_speech_0164.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0165.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0166.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0167.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0168.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0169.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0170.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0171.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0172.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0173.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0174.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0175.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0176.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0177.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0178.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0179.wav,The rapid evolution of artificial intelligence necessitates comprehensive regulatory frameworks to mitigate systemic biases while fostering innovative research across diverse domains.
+train_speech_0180.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0181.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0182.wav,yesterday i goes work and boss say bad thing. me no happy with this job.
+train_speech_0183.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0184.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0185.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0186.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0187.wav,i is wanting speak english good but english hard. she do not know why car broken.
+train_speech_0188.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0189.wav,Effective leadership entails not only visionary strategic foresight but also the cultivation of an inclusive environment wherein interdisciplinary collaboration can flourish.
+train_speech_0190.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0191.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0192.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0193.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0194.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0195.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0196.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0197.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0198.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0199.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0200.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0201.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0202.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0203.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0204.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0205.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0206.wav,i is wanting speak english good but english hard. she do not know why car broken.
+train_speech_0207.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0208.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0209.wav,i is wanting speak english good but english hard. she do not know why car broken.
+train_speech_0210.wav,The rapid evolution of artificial intelligence necessitates comprehensive regulatory frameworks to mitigate systemic biases while fostering innovative research across diverse domains.
+train_speech_0211.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0212.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0213.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0214.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0215.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0216.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0217.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0218.wav,i is wanting speak english good but english hard. she do not know why car broken.
+train_speech_0219.wav,The rapid evolution of artificial intelligence necessitates comprehensive regulatory frameworks to mitigate systemic biases while fostering innovative research across diverse domains.
+train_speech_0220.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0221.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0222.wav,"Environmental sustainability demands a paradigm shift in industrial consumption, integrating circular economy principles and advanced renewable infrastructure."
+train_speech_0223.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0224.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0225.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0226.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0227.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0228.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0229.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0230.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0231.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0232.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0233.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0234.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0235.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0236.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0237.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0238.wav,yesterday i goes work and boss say bad thing. me no happy with this job.
+train_speech_0239.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0240.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0241.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0242.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0243.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0244.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0245.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0246.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0247.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0248.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0249.wav,The rapid evolution of artificial intelligence necessitates comprehensive regulatory frameworks to mitigate systemic biases while fostering innovative research across diverse domains.
+train_speech_0250.wav,The rapid evolution of artificial intelligence necessitates comprehensive regulatory frameworks to mitigate systemic biases while fostering innovative research across diverse domains.
+train_speech_0251.wav,yesterday i goes work and boss say bad thing. me no happy with this job.
+train_speech_0252.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0253.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0254.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0255.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0256.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0257.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0258.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0259.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0260.wav,Effective leadership entails not only visionary strategic foresight but also the cultivation of an inclusive environment wherein interdisciplinary collaboration can flourish.
+train_speech_0261.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0262.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0263.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0264.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0265.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0266.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0267.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0268.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0269.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0270.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0271.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0272.wav,The rapid evolution of artificial intelligence necessitates comprehensive regulatory frameworks to mitigate systemic biases while fostering innovative research across diverse domains.
+train_speech_0273.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0274.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0275.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0276.wav,i is wanting speak english good but english hard. she do not know why car broken.
+train_speech_0277.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0278.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0279.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0280.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0281.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0282.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0283.wav,yesterday i goes work and boss say bad thing. me no happy with this job.
+train_speech_0284.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0285.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0286.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0287.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0288.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0289.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0290.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0291.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0292.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0293.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0294.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0295.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0296.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0297.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0298.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0299.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0300.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0301.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0302.wav,yesterday i goes work and boss say bad thing. me no happy with this job.
+train_speech_0303.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0304.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0305.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0306.wav,i is wanting speak english good but english hard. she do not know why car broken.
+train_speech_0307.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0308.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0309.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0310.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0311.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0312.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0313.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0314.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0315.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0316.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0317.wav,"Notwithstanding the undeniable economic benefits of globalization, regional disparities underscore the imperative for nuanced socioeconomic policies that promote equitable resource distribution."
+train_speech_0318.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0319.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0320.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0321.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0322.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0323.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0324.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0325.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0326.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0327.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0328.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0329.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0330.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0331.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0332.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0333.wav,i is wanting speak english good but english hard. she do not know why car broken.
+train_speech_0334.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0335.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0336.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0337.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0338.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0339.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0340.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0341.wav,"Notwithstanding the undeniable economic benefits of globalization, regional disparities underscore the imperative for nuanced socioeconomic policies that promote equitable resource distribution."
+train_speech_0342.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0343.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0344.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0345.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0346.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0347.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0348.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0349.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0350.wav,i is wanting speak english good but english hard. she do not know why car broken.
+train_speech_0351.wav,"Notwithstanding the undeniable economic benefits of globalization, regional disparities underscore the imperative for nuanced socioeconomic policies that promote equitable resource distribution."
+train_speech_0352.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0353.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0354.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0355.wav,they was playing and then accident happen. no anybody help. we is scared.
+train_speech_0356.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0357.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0358.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0359.wav,"Environmental sustainability demands a paradigm shift in industrial consumption, integrating circular economy principles and advanced renewable infrastructure."
+train_speech_0360.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0361.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0362.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0363.wav,he go to store yesterday and he buy no foods because money is not have. very difficult life.
+train_speech_0364.wav,Effective leadership entails not only visionary strategic foresight but also the cultivation of an inclusive environment wherein interdisciplinary collaboration can flourish.
+train_speech_0365.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0366.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0367.wav,"Notwithstanding the undeniable economic benefits of globalization, regional disparities underscore the imperative for nuanced socioeconomic policies that promote equitable resource distribution."
+train_speech_0368.wav,"Environmental sustainability demands a paradigm shift in industrial consumption, integrating circular economy principles and advanced renewable infrastructure."
+train_speech_0369.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0370.wav,"Environmental sustainability demands a paradigm shift in industrial consumption, integrating circular economy principles and advanced renewable infrastructure."
+train_speech_0371.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0372.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0373.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0374.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0375.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0376.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0377.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0378.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0379.wav,"Environmental sustainability demands a paradigm shift in industrial consumption, integrating circular economy principles and advanced renewable infrastructure."
+train_speech_0380.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0381.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0382.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0383.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0384.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0385.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0386.wav,"Environmental sustainability demands a paradigm shift in industrial consumption, integrating circular economy principles and advanced renewable infrastructure."
+train_speech_0387.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0388.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0389.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0390.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0391.wav,he go to store yesterday and he buy no foods because money is not have. very difficult life.
+train_speech_0392.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0393.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0394.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0395.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0396.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0397.wav,"Notwithstanding the undeniable economic benefits of globalization, regional disparities underscore the imperative for nuanced socioeconomic policies that promote equitable resource distribution."
+train_speech_0398.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0399.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0400.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0401.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0402.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0403.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0404.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0405.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0406.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0407.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0408.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0409.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0410.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0411.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0412.wav,yesterday i goes work and boss say bad thing. me no happy with this job.
+train_speech_0413.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0414.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0415.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0416.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0417.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0418.wav,yesterday i goes work and boss say bad thing. me no happy with this job.
+train_speech_0419.wav,i is wanting speak english good but english hard. she do not know why car broken.
+train_speech_0420.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0421.wav,they was playing and then accident happen. no anybody help. we is scared.
+train_speech_0422.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0423.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0424.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0425.wav,"Environmental sustainability demands a paradigm shift in industrial consumption, integrating circular economy principles and advanced renewable infrastructure."
+train_speech_0426.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0427.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0428.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0429.wav,The rapid evolution of artificial intelligence necessitates comprehensive regulatory frameworks to mitigate systemic biases while fostering innovative research across diverse domains.
+train_speech_0430.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0431.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0432.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0433.wav,The rapid evolution of artificial intelligence necessitates comprehensive regulatory frameworks to mitigate systemic biases while fostering innovative research across diverse domains.
+train_speech_0434.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0435.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0436.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0437.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0438.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0439.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0440.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0441.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0442.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0443.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0444.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0445.wav,"Notwithstanding the undeniable economic benefits of globalization, regional disparities underscore the imperative for nuanced socioeconomic policies that promote equitable resource distribution."
+train_speech_0446.wav,they was playing and then accident happen. no anybody help. we is scared.
+train_speech_0447.wav,Effective leadership entails not only visionary strategic foresight but also the cultivation of an inclusive environment wherein interdisciplinary collaboration can flourish.
+train_speech_0448.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0449.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0450.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0451.wav,"Environmental sustainability demands a paradigm shift in industrial consumption, integrating circular economy principles and advanced renewable infrastructure."
+train_speech_0452.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0453.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0454.wav,Effective leadership entails not only visionary strategic foresight but also the cultivation of an inclusive environment wherein interdisciplinary collaboration can flourish.
+train_speech_0455.wav,yesterday i goes work and boss say bad thing. me no happy with this job.
+train_speech_0456.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0457.wav,"Environmental sustainability demands a paradigm shift in industrial consumption, integrating circular economy principles and advanced renewable infrastructure."
+train_speech_0458.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0459.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0460.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0461.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0462.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0463.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0464.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0465.wav,they was playing and then accident happen. no anybody help. we is scared.
+train_speech_0466.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0467.wav,Effective leadership entails not only visionary strategic foresight but also the cultivation of an inclusive environment wherein interdisciplinary collaboration can flourish.
+train_speech_0468.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0469.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0470.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0471.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0472.wav,"Environmental sustainability demands a paradigm shift in industrial consumption, integrating circular economy principles and advanced renewable infrastructure."
+train_speech_0473.wav,Effective leadership entails not only visionary strategic foresight but also the cultivation of an inclusive environment wherein interdisciplinary collaboration can flourish.
+train_speech_0474.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0475.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0476.wav,"Notwithstanding the undeniable economic benefits of globalization, regional disparities underscore the imperative for nuanced socioeconomic policies that promote equitable resource distribution."
+train_speech_0477.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0478.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0479.wav,Effective leadership entails not only visionary strategic foresight but also the cultivation of an inclusive environment wherein interdisciplinary collaboration can flourish.
+train_speech_0480.wav,yesterday i goes work and boss say bad thing. me no happy with this job.
+train_speech_0481.wav,he go to store yesterday and he buy no foods because money is not have. very difficult life.
+train_speech_0482.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0483.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0484.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0485.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0486.wav,"Notwithstanding the undeniable economic benefits of globalization, regional disparities underscore the imperative for nuanced socioeconomic policies that promote equitable resource distribution."
+train_speech_0487.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0488.wav,Effective leadership entails not only visionary strategic foresight but also the cultivation of an inclusive environment wherein interdisciplinary collaboration can flourish.
+train_speech_0489.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0490.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0491.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0492.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0493.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0494.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0495.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0496.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0497.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0498.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0499.wav,Effective leadership entails not only visionary strategic foresight but also the cultivation of an inclusive environment wherein interdisciplinary collaboration can flourish.
+train_speech_0500.wav,they was playing and then accident happen. no anybody help. we is scared.
+train_speech_0501.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0502.wav,Effective leadership entails not only visionary strategic foresight but also the cultivation of an inclusive environment wherein interdisciplinary collaboration can flourish.
+train_speech_0503.wav,they was playing and then accident happen. no anybody help. we is scared.
+train_speech_0504.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0505.wav,they was playing and then accident happen. no anybody help. we is scared.
+train_speech_0506.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0507.wav,"Environmental sustainability demands a paradigm shift in industrial consumption, integrating circular economy principles and advanced renewable infrastructure."
+train_speech_0508.wav,i is wanting speak english good but english hard. she do not know why car broken.
+train_speech_0509.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0510.wav,they was playing and then accident happen. no anybody help. we is scared.
+train_speech_0511.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0512.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0513.wav,i is wanting speak english good but english hard. she do not know why car broken.
+train_speech_0514.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0515.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0516.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0517.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0518.wav,Effective leadership entails not only visionary strategic foresight but also the cultivation of an inclusive environment wherein interdisciplinary collaboration can flourish.
+train_speech_0519.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0520.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0521.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0522.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0523.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0524.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0525.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0526.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0527.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0528.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0529.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0530.wav,The rapid evolution of artificial intelligence necessitates comprehensive regulatory frameworks to mitigate systemic biases while fostering innovative research across diverse domains.
+train_speech_0531.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0532.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0533.wav,yesterday i goes work and boss say bad thing. me no happy with this job.
+train_speech_0534.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0535.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0536.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0537.wav,he go to store yesterday and he buy no foods because money is not have. very difficult life.
+train_speech_0538.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0539.wav,they was playing and then accident happen. no anybody help. we is scared.
+train_speech_0540.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0541.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0542.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0543.wav,he go to store yesterday and he buy no foods because money is not have. very difficult life.
+train_speech_0544.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0545.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0546.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0547.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0548.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0549.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0550.wav,"Environmental sustainability demands a paradigm shift in industrial consumption, integrating circular economy principles and advanced renewable infrastructure."
+train_speech_0551.wav,he go to store yesterday and he buy no foods because money is not have. very difficult life.
+train_speech_0552.wav,he go to store yesterday and he buy no foods because money is not have. very difficult life.
+train_speech_0553.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0554.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0555.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0556.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0557.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0558.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0559.wav,Effective leadership entails not only visionary strategic foresight but also the cultivation of an inclusive environment wherein interdisciplinary collaboration can flourish.
+train_speech_0560.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0561.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0562.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0563.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0564.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0565.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0566.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0567.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0568.wav,they was playing and then accident happen. no anybody help. we is scared.
+train_speech_0569.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0570.wav,Effective leadership entails not only visionary strategic foresight but also the cultivation of an inclusive environment wherein interdisciplinary collaboration can flourish.
+train_speech_0571.wav,i is wanting speak english good but english hard. she do not know why car broken.
+train_speech_0572.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0573.wav,he go to store yesterday and he buy no foods because money is not have. very difficult life.
+train_speech_0574.wav,i is wanting speak english good but english hard. she do not know why car broken.
+train_speech_0575.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0576.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0577.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0578.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0579.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0580.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0581.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0582.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0583.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0584.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0585.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0586.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0587.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0588.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0589.wav,yesterday i goes work and boss say bad thing. me no happy with this job.
+train_speech_0590.wav,The rapid evolution of artificial intelligence necessitates comprehensive regulatory frameworks to mitigate systemic biases while fostering innovative research across diverse domains.
+train_speech_0591.wav,they was playing and then accident happen. no anybody help. we is scared.
+train_speech_0592.wav,"Notwithstanding the undeniable economic benefits of globalization, regional disparities underscore the imperative for nuanced socioeconomic policies that promote equitable resource distribution."
+train_speech_0593.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0594.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0595.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0596.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0597.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0598.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0599.wav,he go to store yesterday and he buy no foods because money is not have. very difficult life.
+train_speech_0600.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0601.wav,Effective leadership entails not only visionary strategic foresight but also the cultivation of an inclusive environment wherein interdisciplinary collaboration can flourish.
+train_speech_0602.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0603.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0604.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0605.wav,they was playing and then accident happen. no anybody help. we is scared.
+train_speech_0606.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0607.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0608.wav,he go to store yesterday and he buy no foods because money is not have. very difficult life.
+train_speech_0609.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0610.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0611.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0612.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0613.wav,he go to store yesterday and he buy no foods because money is not have. very difficult life.
+train_speech_0614.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0615.wav,Effective leadership entails not only visionary strategic foresight but also the cultivation of an inclusive environment wherein interdisciplinary collaboration can flourish.
+train_speech_0616.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0617.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0618.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0619.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0620.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0621.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0622.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0623.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0624.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0625.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0626.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0627.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0628.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0629.wav,they was playing and then accident happen. no anybody help. we is scared.
+train_speech_0630.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0631.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0632.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0633.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0634.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0635.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0636.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0637.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0638.wav,The rapid evolution of artificial intelligence necessitates comprehensive regulatory frameworks to mitigate systemic biases while fostering innovative research across diverse domains.
+train_speech_0639.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0640.wav,yesterday i goes work and boss say bad thing. me no happy with this job.
+train_speech_0641.wav,"Notwithstanding the undeniable economic benefits of globalization, regional disparities underscore the imperative for nuanced socioeconomic policies that promote equitable resource distribution."
+train_speech_0642.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0643.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0644.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0645.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0646.wav,he go to store yesterday and he buy no foods because money is not have. very difficult life.
+train_speech_0647.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0648.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0649.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0650.wav,Effective leadership entails not only visionary strategic foresight but also the cultivation of an inclusive environment wherein interdisciplinary collaboration can flourish.
+train_speech_0651.wav,"Environmental sustainability demands a paradigm shift in industrial consumption, integrating circular economy principles and advanced renewable infrastructure."
+train_speech_0652.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0653.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0654.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0655.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0656.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0657.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0658.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0659.wav,Effective leadership entails not only visionary strategic foresight but also the cultivation of an inclusive environment wherein interdisciplinary collaboration can flourish.
+train_speech_0660.wav,"Environmental sustainability demands a paradigm shift in industrial consumption, integrating circular economy principles and advanced renewable infrastructure."
+train_speech_0661.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0662.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0663.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0664.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0665.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0666.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0667.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0668.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0669.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0670.wav,Effective leadership entails not only visionary strategic foresight but also the cultivation of an inclusive environment wherein interdisciplinary collaboration can flourish.
+train_speech_0671.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0672.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0673.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0674.wav,"Notwithstanding the undeniable economic benefits of globalization, regional disparities underscore the imperative for nuanced socioeconomic policies that promote equitable resource distribution."
+train_speech_0675.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0676.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0677.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0678.wav,"Notwithstanding the undeniable economic benefits of globalization, regional disparities underscore the imperative for nuanced socioeconomic policies that promote equitable resource distribution."
+train_speech_0679.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0680.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0681.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0682.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0683.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0684.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0685.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0686.wav,"Technological advancements have significantly reshaped contemporary communication. While social media facilitates global networking, it often reduces the depth of interpersonal relationships."
+train_speech_0687.wav,"Notwithstanding the undeniable economic benefits of globalization, regional disparities underscore the imperative for nuanced socioeconomic policies that promote equitable resource distribution."
+train_speech_0688.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0689.wav,"Environmental sustainability demands a paradigm shift in industrial consumption, integrating circular economy principles and advanced renewable infrastructure."
+train_speech_0690.wav,they was playing and then accident happen. no anybody help. we is scared.
+train_speech_0691.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0692.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0693.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0694.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0695.wav,"Higher education provides students with essential analytical skills and practical knowledge, enabling them to navigate complex professional landscapes effectively."
+train_speech_0696.wav,yesterday i goes work and boss say bad thing. me no happy with this job.
+train_speech_0697.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0698.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0699.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0700.wav,The rapid evolution of artificial intelligence necessitates comprehensive regulatory frameworks to mitigate systemic biases while fostering innovative research across diverse domains.
+train_speech_0701.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0702.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0703.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0704.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0705.wav,yesterday i goes work and boss say bad thing. me no happy with this job.
+train_speech_0706.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0707.wav,yesterday i goes work and boss say bad thing. me no happy with this job.
+train_speech_0708.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0709.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0710.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0711.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0712.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0713.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0714.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0715.wav,he go to store yesterday and he buy no foods because money is not have. very difficult life.
+train_speech_0716.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0717.wav,yesterday i goes work and boss say bad thing. me no happy with this job.
+train_speech_0718.wav,Effective leadership entails not only visionary strategic foresight but also the cultivation of an inclusive environment wherein interdisciplinary collaboration can flourish.
+train_speech_0719.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0720.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0721.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0722.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0723.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0724.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0725.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0726.wav,"Environmental sustainability demands a paradigm shift in industrial consumption, integrating circular economy principles and advanced renewable infrastructure."
+train_speech_0727.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0728.wav,yesterday i goes work and boss say bad thing. me no happy with this job.
+train_speech_0729.wav,i is wanting speak english good but english hard. she do not know why car broken.
+train_speech_0730.wav,i is wanting speak english good but english hard. she do not know why car broken.
+train_speech_0731.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0732.wav,"Environmental sustainability demands a paradigm shift in industrial consumption, integrating circular economy principles and advanced renewable infrastructure."
+train_speech_0733.wav,"Environmental sustainability demands a paradigm shift in industrial consumption, integrating circular economy principles and advanced renewable infrastructure."
+train_speech_0734.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0735.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0736.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0737.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0738.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0739.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0740.wav,i think education is very important for all people because it help to get good job and make money.
+train_speech_0741.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0742.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0743.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0744.wav,i is wanting speak english good but english hard. she do not know why car broken.
+train_speech_0745.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0746.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0747.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0748.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0749.wav,last year i visit my uncle house and we was having big dinner. the food is delicious.
+train_speech_0750.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0751.wav,"Urbanization offers substantial economic advantages, yet municipal authorities must proactively address infrastructural strain and environmental degradation."
+train_speech_0752.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0753.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0754.wav,yesterday i goes work and boss say bad thing. me no happy with this job.
+train_speech_0755.wav,"I have been studying computer science for two years. It is interesting but quite challenging, especially when we do programming assignments."
+train_speech_0756.wav,"Notwithstanding the undeniable economic benefits of globalization, regional disparities underscore the imperative for nuanced socioeconomic policies that promote equitable resource distribution."
+train_speech_0757.wav,"Sustainable development requires a balanced integration of renewable energy policies, economic incentives, and widespread public awareness."
+train_speech_0758.wav,he go to store yesterday and he buy no foods because money is not have. very difficult life.
+train_speech_0759.wav,in my country many people drives car but traffic is very terrible. we need more bus.
+train_speech_0760.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0761.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0762.wav,Effective leadership entails not only visionary strategic foresight but also the cultivation of an inclusive environment wherein interdisciplinary collaboration can flourish.
+train_speech_0763.wav,"In my opinion, technology has changed how we communicate every day. Although it makes life faster, sometimes people don't talk face to face."
+train_speech_0764.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0765.wav,"Many people prefer living in big cities because of better job opportunities, even though the cost of living is noticeably higher."
+train_speech_0766.wav,yesterday i go to the market with friend and we buy some vegetable. he don't like vegetable so he eat apple.
+train_speech_0767.wav,i is wanting speak english good but english hard. she do not know why car broken.
+train_speech_0768.wav,"During my last holiday, I traveled to the mountains with my family. The weather was cold, but the scenery was truly beautiful."
+train_speech_0769.wav,The rapid evolution of artificial intelligence necessitates comprehensive regulatory frameworks to mitigate systemic biases while fostering innovative research across diverse domains.

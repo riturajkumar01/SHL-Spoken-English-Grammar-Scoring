@@ -150,7 +150,16 @@ def transcribe_dataset(
         else:
             full_path = os.path.join(audio_dir, fname)
 
-        text = transcribe_audio_file(full_path, whisper_model=whisper_model)
+        # Check if transcript is already present in metadata
+        if "transcript" in row and pd.notnull(row["transcript"]) and str(row["transcript"]).strip():
+            text = str(row["transcript"]).strip()
+        elif "transcript_text" in row and pd.notnull(row["transcript_text"]) and str(row["transcript_text"]).strip():
+            text = str(row["transcript_text"]).strip()
+        elif "text" in row and pd.notnull(row["text"]) and str(row["text"]).strip():
+            text = str(row["text"]).strip()
+        else:
+            text = transcribe_audio_file(full_path, whisper_model=whisper_model)
+
         records.append({
             filename_col: row[filename_col],
             "transcript": text
